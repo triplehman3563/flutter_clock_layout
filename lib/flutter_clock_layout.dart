@@ -1,9 +1,8 @@
-library project_event_clock;
+library flutter_clock_layout;
 
 import 'dart:math';
-
+import 'package:flutter_clock_layout/AngularItem.dart';
 import 'package:flutter/material.dart';
-import 'package:project_event_clock/AngularItem.dart';
 
 class Clock extends StatefulWidget {
   final List<AngularItem> angularItemList;
